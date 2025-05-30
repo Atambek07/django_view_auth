@@ -1,6 +1,4 @@
-# Get Started With Django Part 3: Django View Authorization, Code Examples
-
-This folder contains the sample code for [Get Started With Django Part 3: Django View Authorization](https://realpython.com/django-view-authorization/).
+# Django View Authorization, Code Examples
 
 The code was tested with Python 3.8 and Django 3.0.7. To install the same version, use:
 
@@ -9,9 +7,9 @@ The code was tested with Python 3.8 and Django 3.0.7. To install the same versio
 This tutorial uses the Django admin, and comes with some sample data. To get going you will need to run the following commands:
 
     cd Blog
-    python manage.py migrate
-    python manage.py createsuperuser
-    python manage.py loaddata core.json
+    python3 manage.py migrate
+    python3 manage.py createsuperuser
+    python3 manage.py loaddata core.json
 
 Once those commands are complete, you can run the Django development server:
 
